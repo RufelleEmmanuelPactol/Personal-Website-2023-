@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root
+{
+    --darkbox :#282828;
+    --mocha: #EBDBB2;
+}
+
+.center_content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body
+{
+    font-family: "JetBrains Mono", monospace;
+    background-color: var(--darkbox);
+    color: var(--mocha);
+}
+
+#header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spacer
+{
+    height: 2em;
+}
+
+#profile
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#profile img
+{
+    border-radius: 150px;
+}
+
+p
+{
+    font-size: small;
+    margin-bottom: -1em;
+}
+
+footer
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+#github_logo:hover
+{
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0.5;
+}
+
+
+#specialties
+{
+    font-size: x-large;
+}
+
+.text_center
+{
+    text-align: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-weight: 200;
+}
+
+.lister
+{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    justify-items: center;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+.list_item
+{
+    width: 25vw;
+}
+
+textarea
+{
+    font-family: "JetBrains Mono";
+}
